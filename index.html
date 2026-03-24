@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Danilo - ADS Uninter</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" class="container">
+            <h1>Sobre Mim</h1>
+            <p>Olá! Meu nome é Danilo. Sou estudante de <strong>Análise e Desenvolvimento de Sistemas (ADS)</strong> na Uninter.</p>
+            <p>Trabalho atualmente com suporte técnico na Avanço Informática e sou entusiasta de sistemas Linux (Debian/Slackware) e bancos de dados PostgreSQL.</p>
+        </section>
+
+        <section id="formacao" class="container">
+            <h2>Formação Acadêmica</h2>
+            <ul>
+                <li>Tecnólogo em Análise e Desenvolvimento de Sistemas - Uninter (2º Semestre)</li>
+                <li>Capacitação em Suporte e Infraestrutura de TI - Avanço Informática</li>
+            </ul>
+        </section>
+
+        <section id="portfolio" class="container">
+            <h2>Portfólio de Projetos</h2>
+            <div class="projeto">
+                <h3>Sistema de Gestão de Merenda Escolar</h3>
+                <p><strong>Desafio:</strong> Otimizar o processo de pedidos de merenda na Escola Municipal Simão Tavares (Itaipé-MG).</p>
+                <p><strong>Solução:</strong> Estruturei a lógica para um sistema que organiza as solicitações diárias, reduzindo drasticamente as filas e o desperdício de alimentos.</p>
+            </div>
+        </section>
+
+        <section id="contato" class="container">
+            <h2>Contato</h2>
+            <form id="formContato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="seu-email@dominio.com" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" rows="5" placeholder="Como posso ajudar?" required></textarea>
+                
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+            <div id="statusEnvio"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Danilo - ADS Uninter | Desenvolvido com HTML5 e CSS3 puro.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
